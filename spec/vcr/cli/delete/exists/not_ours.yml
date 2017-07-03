@@ -1,0 +1,154 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/show/805618539985940483.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.17.0
+      Authorization:
+      - OAuth oauth_consumer_key="<CONSUMER_KEY>", oauth_nonce="e35b71fe2dabb8a60c3fb4d784c1d4df",
+        oauth_signature="6Tg4%2BMuXZSsgGN1AO6Vzw5Q9Iss%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1499103935", oauth_token="<USER_TOKEN>", oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '1231'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Mon, 03 Jul 2017 17:45:35 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Mon, 03 Jul 2017 17:45:35 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_f
+      Set-Cookie:
+      - guest_id=v1%3A149910393571008102; Domain=.twitter.com; Path=/; Expires=Wed,
+        03-Jul-2019 17:45:35 UTC
+      - lang=en; Path=/
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read-write
+      X-Connection-Hash:
+      - 4d8fc2c496f5ef517c2bf0049deddaa6
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '900'
+      X-Rate-Limit-Remaining:
+      - '892'
+      X-Rate-Limit-Reset:
+      - '1499104509'
+      X-Response-Time:
+      - '179'
+      X-Transaction:
+      - 005579c7009c349e
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: UTF-8
+      string: "{\"created_at\":\"Mon Dec 05 03:43:22 +0000 2016\",\"id\":805618539985940483,\"id_str\":\"805618539985940483\",\"text\":\"My
+        mom is a scammer \\ud83d\\ude02\\ud83d\\ude02\\ud83d\\ude02 https:\\/\\/t.co\\/ek8aiY862X\",\"truncated\":false,\"entities\":{\"hashtags\":[],\"symbols\":[],\"user_mentions\":[],\"urls\":[],\"media\":[{\"id\":805618531853156352,\"id_str\":\"805618531853156352\",\"indices\":[24,47],\"media_url\":\"http:\\/\\/pbs.twimg.com\\/media\\/Cy4hyU-UQAAfC1u.jpg\",\"media_url_https\":\"https:\\/\\/pbs.twimg.com\\/media\\/Cy4hyU-UQAAfC1u.jpg\",\"url\":\"https:\\/\\/t.co\\/ek8aiY862X\",\"display_url\":\"pic.twitter.com\\/ek8aiY862X\",\"expanded_url\":\"https:\\/\\/twitter.com\\/ericdgriffey\\/status\\/805618539985940483\\/photo\\/1\",\"type\":\"photo\",\"sizes\":{\"medium\":{\"w\":675,\"h\":1200,\"resize\":\"fit\"},\"small\":{\"w\":382,\"h\":680,\"resize\":\"fit\"},\"thumb\":{\"w\":150,\"h\":150,\"resize\":\"crop\"},\"large\":{\"w\":750,\"h\":1334,\"resize\":\"fit\"}}}]},\"extended_entities\":{\"media\":[{\"id\":805618531853156352,\"id_str\":\"805618531853156352\",\"indices\":[24,47],\"media_url\":\"http:\\/\\/pbs.twimg.com\\/media\\/Cy4hyU-UQAAfC1u.jpg\",\"media_url_https\":\"https:\\/\\/pbs.twimg.com\\/media\\/Cy4hyU-UQAAfC1u.jpg\",\"url\":\"https:\\/\\/t.co\\/ek8aiY862X\",\"display_url\":\"pic.twitter.com\\/ek8aiY862X\",\"expanded_url\":\"https:\\/\\/twitter.com\\/ericdgriffey\\/status\\/805618539985940483\\/photo\\/1\",\"type\":\"photo\",\"sizes\":{\"medium\":{\"w\":675,\"h\":1200,\"resize\":\"fit\"},\"small\":{\"w\":382,\"h\":680,\"resize\":\"fit\"},\"thumb\":{\"w\":150,\"h\":150,\"resize\":\"crop\"},\"large\":{\"w\":750,\"h\":1334,\"resize\":\"fit\"}}}]},\"source\":\"\\u003ca
+        href=\\\"http:\\/\\/twitter.com\\/download\\/iphone\\\" rel=\\\"nofollow\\\"\\u003eTwitter
+        for iPhone\\u003c\\/a\\u003e\",\"in_reply_to_status_id\":null,\"in_reply_to_status_id_str\":null,\"in_reply_to_user_id\":null,\"in_reply_to_user_id_str\":null,\"in_reply_to_screen_name\":null,\"user\":{\"id\":32454945,\"id_str\":\"32454945\",\"name\":\"Griffey
+        Hendrix\",\"screen_name\":\"ericdgriffey\",\"location\":\"\",\"description\":\"spread
+        love\",\"url\":\"https:\\/\\/t.co\\/83mOSxojA1\",\"entities\":{\"url\":{\"urls\":[{\"url\":\"https:\\/\\/t.co\\/83mOSxojA1\",\"expanded_url\":\"https:\\/\\/soundcloud.com\\/user-790980248\\/the-jevaun-episode\",\"display_url\":\"soundcloud.com\\/user-790980248\\u2026\",\"indices\":[0,23]}]},\"description\":{\"urls\":[]}},\"protected\":false,\"followers_count\":1773,\"friends_count\":1539,\"listed_count\":15,\"created_at\":\"Fri
+        Apr 17 15:51:02 +0000 2009\",\"favourites_count\":22254,\"utc_offset\":-25200,\"time_zone\":\"Arizona\",\"geo_enabled\":true,\"verified\":false,\"statuses_count\":52297,\"lang\":\"en\",\"contributors_enabled\":false,\"is_translator\":false,\"is_translation_enabled\":false,\"profile_background_color\":\"C0DEED\",\"profile_background_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_background_images\\/506291859\\/tumblr_m1zqjkZeoq1qa1pdh.jpg\",\"profile_background_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_background_images\\/506291859\\/tumblr_m1zqjkZeoq1qa1pdh.jpg\",\"profile_background_tile\":true,\"profile_image_url\":\"http:\\/\\/pbs.twimg.com\\/profile_images\\/870647835288510465\\/86OOXRKM_normal.jpg\",\"profile_image_url_https\":\"https:\\/\\/pbs.twimg.com\\/profile_images\\/870647835288510465\\/86OOXRKM_normal.jpg\",\"profile_banner_url\":\"https:\\/\\/pbs.twimg.com\\/profile_banners\\/32454945\\/1493609525\",\"profile_link_color\":\"0084B4\",\"profile_sidebar_border_color\":\"C0DEED\",\"profile_sidebar_fill_color\":\"DDEEF6\",\"profile_text_color\":\"333333\",\"profile_use_background_image\":true,\"has_extended_profile\":true,\"default_profile\":false,\"default_profile_image\":false,\"following\":false,\"follow_request_sent\":false,\"notifications\":false,\"translator_type\":\"none\"},\"geo\":null,\"coordinates\":null,\"place\":null,\"contributors\":null,\"is_quote_status\":false,\"retweet_count\":12239,\"favorite_count\":25413,\"favorited\":false,\"retweeted\":false,\"possibly_sensitive\":false,\"possibly_sensitive_appealable\":false,\"lang\":\"en\"}"
+    http_version: 
+  recorded_at: Mon, 03 Jul 2017 17:45:35 GMT
+- request:
+    method: post
+    uri: https://api.twitter.com/1.1/statuses/destroy/805618539985940483.json
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - TwitterRubyGem/5.17.0
+      Authorization:
+      - OAuth oauth_consumer_key="<CONSUMER_KEY>", oauth_nonce="a8a3c02d4131594ebd4c8d41053ab991",
+        oauth_signature="4ysjLmzIJQ4ayL9w%2FF%2FBlCiqeL4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1499103935", oauth_token="<USER_TOKEN>", oauth_version="1.0"
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 403
+      message: Forbidden
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '102'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 03 Jul 2017 17:45:36 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Mon, 03 Jul 2017 17:45:36 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_f
+      Set-Cookie:
+      - guest_id=v1%3A149910393594861249; Domain=.twitter.com; Path=/; Expires=Wed,
+        03-Jul-2019 17:45:36 UTC
+      - lang=en; Path=/
+      Status:
+      - 403 Forbidden
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Connection-Hash:
+      - 73bcf99013f6bb9984d1f64ace4a95af
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Response-Time:
+      - '227'
+      X-Transaction:
+      - 007fc68c00b09418
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: UTF-8
+      string: "{\"errors\":[{\"code\":183,\"message\":\"You may not delete another
+        user's status.\"}]}"
+    http_version: 
+  recorded_at: Mon, 03 Jul 2017 17:45:36 GMT
+recorded_with: VCR 2.9.3
