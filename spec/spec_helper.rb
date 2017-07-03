@@ -36,4 +36,4 @@ def fixture(fixture_name, format = 'json')
   File.new(project_path + "/spec/fixtures/#{fixture_name}.#{format}")
 end
 
-ENV['TUGBOAT_CONFIG_PATH'] = project_path + '/tmp/teewt'
+ENV['TEEWT_CONFIG_PATH'] = project_path + '/tmp/teewt'

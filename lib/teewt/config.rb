@@ -15,7 +15,7 @@ module Teewt
     def initialize
       @path = File.join(File.expand_path('.'), FILE_NAME)
       unless File.exist?(@path)
-        @path = (ENV['TUGBOAT_CONFIG_PATH'] || File.join(File.expand_path('~'), FILE_NAME))
+        @path = (ENV['TEEWT_CONFIG_PATH'] || File.join(File.expand_path('~'), FILE_NAME))
       end
       @data = load_config_file
     end
